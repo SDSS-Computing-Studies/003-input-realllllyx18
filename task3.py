@@ -1,4 +1,4 @@
-#! python3
+#! #! python3
 
 # Solve a two step algebra equation.
 # Two steps equations are in the format ax + b = c
@@ -12,3 +12,11 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a=input("Enter the value of a")
+b=input("Enter the value of b")
+c=input("Enter the value of c")
+
+d=int(c)-int(b)
+x=int(d)/int(a)
+print(x)
