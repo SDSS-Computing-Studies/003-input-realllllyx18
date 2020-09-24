@@ -13,3 +13,15 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+import math
+
+side1=input("Enter the side1")
+side2=input("Enter the side2")
+
+total=float(side1)**2+float(side2)**2
+
+hypotenuse=float(math.sqrt(total))
+hypotenuse=str(hypotenuse)
+
+result=("Input sides of 5 and 7 should give hypotenuse of "+hypotenuse)
+print(result)
