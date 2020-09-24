@@ -20,5 +20,5 @@ radius=input("Enter the radius")
 volume=float(4/3)*float(math.pi)*float(radius)**3
 volume=str(volume)
 
-result=("The out put radius of 3 should give volume of"+volume)
+result=("The output radius of 3 should give volume of"+volume)
 print(result)
