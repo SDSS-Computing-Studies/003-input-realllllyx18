@@ -12,6 +12,6 @@
 name=input("Enter your name")
 email=input("Enter your email")
 
-result=("your name is"+" "+ name+", and your email is"+" "+email+".")
+result=("Your name is"+" "+ name+", and your email is"+" "+email+".")
 print(result)
 
