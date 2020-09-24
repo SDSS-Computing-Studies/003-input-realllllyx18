@@ -23,5 +23,5 @@ total=float(side1)**2+float(side2)**2
 hypotenuse=float(math.sqrt(total))
 hypotenuse=str(hypotenuse)
 
-result=("Input sides of 5 and 7 should give hypotenuse of "+hypotenuse)
+result=("The hypotenuse is  "+hypotenuse)
 print(result)
