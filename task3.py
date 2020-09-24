@@ -1,4 +1,4 @@
-#! #! python3
+#! python3
 
 # Solve a two step algebra equation.
 # Two steps equations are in the format ax + b = c
@@ -19,4 +19,6 @@ c=input("Enter the value of c")
 
 d=int(c)-int(b)
 x=int(d)/int(a)
-print(x)
+
+result=("The solution of the equation is"+str(x))
+print(result)
