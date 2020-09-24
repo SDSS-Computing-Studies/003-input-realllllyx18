@@ -19,6 +19,7 @@ c=input("Enter the value of c")
 
 d=int(c)-int(b)
 x=int(d)/int(a)
+x=str(x)
 
-result=("The solution of the equation is"+str(x))
+result=("The solution of the equation is "+x)
 print(result)
